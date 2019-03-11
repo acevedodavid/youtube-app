@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="./css/main.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <form id="myForm">
+            <fieldset>
+                <legend> Search </legend>
+                <div>
+                    <label for="search-term">
+                        <div>Search term:</div>
+                        <input type="text" id="searchTerm" class="formElement">
+                    </label>
+                </div>
+                <div>
+                    <input class="button" type="submit" id="submitButton" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+        <div class="results">
+        </div>
+        <div class="myButtons">
+            <button id="previousButton" class="button">Previous Page</button>
+            <button id="nextButton" class="button">Next Page</button>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</html>
